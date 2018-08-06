@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class = "navbar">
+        <ul>
+            <li id="latitude">
+            <a href="index.html">Latitude</a></li>
+            <li style="float:right">
+            <a href="data.html">Data</a>
+            </li><li style="float:right">
+            <a href="comparison.html">Comparison</a>
+            </li>
+            <li style="float:right">
+                <div class = dropdown>
+                    <a href="#">Plots &#9660;</a>
+                        <div class = dropdown-content>
+                            <a href="temp.html">Temperature</a>
+                            <a href="humidity.html">Humidity</a>
+                            <a href="cloudiness.html">Cloudiness</a>
+                            <a href="windspeed.html">Wind Speed</a>  
+                        </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class = "container-fluid">
+            <div class = "row">
+                <div class = "col-sm-8">
+                    <section class="clearfix">
+                        <h1>Humidity</h1>
+                        <hr>
+                        <img class="pull-left" src="humidity.png" style="width:60%">
+                        <p class = "text-left">There doesn't seem to be a strong correlation between humidity 
+                                               and proximity to the equator, although a large number of sampled 
+                                               cities that currently have 30% humidity or below seem to fall in 
+                                               between 20 and 50 degrees north latitude. But the higher humidity 
+                                               scores are spread throughout the range of latitudes, so there 
+                                               really isn't much conclusive that can be obtained from the data.
+                        </p>
+
+                        
+                    </section>  
+                </div>
+    
+                <div class = "col-sm-4">
+                    <section class="clearfix">
+                        <h1>Visualizations</h1>
+                        <hr>
+                        <a href="temp.html"><img src="temp.png" alt="alt" style="width:45%"></a>
+                        <a href="humidity.html"><img src="humidity.png" alt="alt" style="width:45%"></a>
+                        <a href="cloudiness.html"><img src="clouds.png" alt="alt" style="width:45%"></a>
+                        <a href="windspeed.html"><img src="wind.png" alt="alt" style="width:45%"></a>
+                    </section>  
+                </div>
+            </div>
+        </div>                    
+
+
+
+
+
+</body>
+</html>

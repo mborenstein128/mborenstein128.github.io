@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class = "navbar">
+        <ul>
+            <li id="latitude">
+            <a href="index.html">Latitude</a></li>
+            <li style="float:right">
+            <a href="data.html">Data</a>
+            </li><li style="float:right">
+            <a href="comparison.html">Comparison</a>
+            </li>
+            <li style="float:right">
+                <div class = dropdown>
+                    <a href="#">Plots &#9660;</a>
+                        <div class = dropdown-content>
+                            <a href="temp.html">Temperature</a>
+                            <a href="humidity.html">Humidity</a>
+                            <a href="cloudiness.html">Cloudiness</a>
+                            <a href="windspeed.html">Wind Speed</a>  
+                        </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class = "container-fluid">
+            <div class = "row">
+                <div class = "col-sm-8">
+                    <section class="clearfix">
+                        <h1>Temperature</h1>
+                        <hr>
+                        <img class="pull-left" src="temp.png" style="width:60%">
+                        <p class = "text-left">Temperatures are uniformly higher at latitudes closer to the equator, 
+                                               and lower towards the earth's poles, as one might expect. However, 
+                                               the northern hemisphere has slightly higher temperatures than the southern, 
+                                               due to the tilt of the earth's axis that causes seasonal differences between 
+                                               the hemispheres.
+                        </p>
+
+                        
+                    </section>  
+                </div>
+    
+                <div class = "col-sm-4">
+                    <section class="clearfix">
+                        <h1>Visualizations</h1>
+                        <hr>
+                        <a href="temp.html"><img src="temp.png" alt="alt" style="width:45%"></a>
+                        <a href="humidity.html"><img src="humidity.png" alt="alt" style="width:45%"></a>
+                        <a href="cloudiness.html"><img src="clouds.png" alt="alt" style="width:45%"></a>
+                        <a href="windspeed.html"><img src="wind.png" alt="alt" style="width:45%"></a>
+                    </section>  
+                </div>
+            </div>
+        </div>                    
+
+
+
+
+
+</body>
+</html>
